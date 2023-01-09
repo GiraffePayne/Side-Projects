@@ -81,4 +81,6 @@ int main() {
 
         main(); // Returns to start of program
     }
+    
+    return 0;
 }
