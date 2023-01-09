@@ -74,7 +74,7 @@ int main() {
 
     else {
         cout << "Invalid input, please input a valid option.";
-        Sleep(5000); // Delays next the screen from clearing
+        Sleep(5000); // Delays the screen from clearing
 
         int choice = 0;
         ClearScreen(); // Simple function to remove previous text from screen
