@@ -1,3 +1,8 @@
+/*
+Small TicTacToe game made after finishing a Java class
+and wanted use many of the things I learned on a small project.
+*/
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
