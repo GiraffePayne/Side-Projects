@@ -1,3 +1,9 @@
+/*
+Simple project to allow the user to create an account
+and access that same account. Created for us in
+larger future project.
+*/
+
 #include <iostream>
 #include <fstream>
 #include <string>
