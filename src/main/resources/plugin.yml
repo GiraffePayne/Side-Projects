@@ -1,4 +1,69 @@
-name: JoinLeave
+name: Potions
 version: '${project.version}'
-main: me.giraffe.joinleave.JoinLeave
+main: me.giraffe.potions.Potions
 api-version: 1.19
+commands:
+  speed:
+    description: "Adds speed effect"
+    usage: /<command>
+    permissions:
+      potions.speed:
+        description: "Used with speed command"
+        default: op
+  speed2:
+    description: "Adds speed II effect"
+    usage: /<command>
+    potions.speedtwo:
+      description: "Used with speed 2 command"
+      default: op
+  fireres:
+    description: "Adds fire resistance effect!"
+    usage: /<command>
+    potions.fireres:
+      description: "Used with fireres command"
+      default: op
+  nv:
+    description: "Adds night vision effect!"
+    usage: /<command>
+    potions.nv:
+      description: "Used with nv command"
+      default: op
+  nightvision:
+    description: "Adds night vision effect!"
+    usage: /<command>
+    potions.nv:
+      description: "Used with nightvision command"
+      default: op
+  wb:
+    description: "Adds waterbreathing effect!"
+    usage: /<command>
+    potions.wb:
+      description: "Used with wb command"
+      default: op
+  waterbreathing:
+    description: "Adds waterbreathing effect!"
+    usage: /<command>
+    potions.wb:
+      description: "Used with wb command"
+      default: op
+  jumpboost:
+    description: "Adds jump boost effect!"
+    usage: /<command>
+    potions.jump:
+      description: "Used with jumpboost command"
+      default: op
+  jumpboost2:
+    description: "Adds jump boost effect!"
+    usage: /<command>
+    potions.jumpboosttwo:
+      description: "Used with jumpboost 2 command"
+      default: op
+  store:
+    description: "Displays store"
+    usage: /<command>
+  wiki:
+    description: "Displays wiki"
+    usage: /<command>
+  discord:
+    description: "Displays discord"
+    usage: /<command>
