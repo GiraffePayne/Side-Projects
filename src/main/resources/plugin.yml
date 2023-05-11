@@ -1,0 +1,4 @@
+name: JoinLeave
+version: '${project.version}'
+main: me.giraffe.joinleave.JoinLeave
+api-version: 1.19
